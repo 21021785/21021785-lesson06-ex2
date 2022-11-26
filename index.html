@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Carousel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link " href="#">Warframes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Download</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" style="padding-bottom: 50px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active"><img src="ImagesEx2/Excal Banner.png" class="d-block w-100 h-25"></div>
+            <div class="carousel-item"><img src="ImagesEx2/Oberon Banner.png" class="d-block w-100 h-25"></div>
+            <div class="carousel-item"><img src="ImagesEx2/Mesa Banner.png" class="d-block w-100 h-25"></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-3 col-sm-10">
+            <div class="card">
+                <img src="ImagesEx2/ExcaliburFull.png" class="card-img-top" alt="Excalibur">
+                <div class="card-body">
+                    <h5 class="card-title">Excalibur</h5>
+                    <p class="card-text">A perfect balance of mobility and offense, Excalibur is the ideal Warframe for new players.</p>
+                    <button type="button" class="btn btn-primary">Build Options</button>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Passive: Swordsmanship</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-10">
+            <div class="card">
+                <img src="ImagesEx2/MagFull.png" class="card-img-top" alt="Mag">
+                <div class="card-body">
+                    <h5 class="card-title">Mag</h5>
+                    <p class="card-text">With full command of surrounding magnetic energy, Mag is an expert at enemy manipulation.</p>
+                    <button type="button" class="btn btn-primary">Build Options</button>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Passive: Magnetism</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-10">
+            <div class="card">
+                <img src="ImagesEx2/VoltFull.png" class="card-img-top" alt="Volt">
+                <div class="card-body">
+                    <h5 class="card-title">Volt</h5>
+                    <p class="card-text">Volt can create and harness electrical elements. This is a high-damage Warframe perfect for players who want a potent alternative to gun-play.</p>
+                    <button type="button" class="btn btn-primary">Build Options</button>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Passive: Static Build</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
